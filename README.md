@@ -26,7 +26,7 @@ useState, useRef, useEffect
 - Page file name = url extension 
     - for example, localhost:3000/ImageChangeOnScroll
 - static folder is where images are stored when using next
-- content and notes derived from Using React Hooks tutorial II 
+- content derived from Using React Hooks tutorial II 
 by Peter Kellner on https://app.pluralsight.com
 
 # useState
