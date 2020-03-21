@@ -1,0 +1,27 @@
+{
+  "name": "hookswithnextjs",
+  "version": "1.0.0",
+  "description": "input form, two-way binding, colorize hover, colorize scroll",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DopamineDriven/HooksWithNextjs.git"
+  },
+  "author": "Andrew Ross",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DopamineDriven/HooksWithNextjs/issues"
+  },
+  "homepage": "https://github.com/DopamineDriven/HooksWithNextjs#readme",
+  "dependencies": {
+    "next": "^9.3.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
