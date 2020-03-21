@@ -26,7 +26,16 @@ useState, useRef, useEffect
 - Page file name = url extension 
     - for example, localhost:3000/ImageChangeOnScroll
 - static folder is where images are stored when using next
-- content and notes derived from Using React Hooks tutorial II by Peter Kellner on https://app.pluralsight.com
+- content and notes derived from Using React Hooks tutorial II 
+by Peter Kellner on https://app.pluralsight.com
+
+# useState
+## echoing input field
+- without useState hook:
+    - would have had to create a class constructor to initialize state
+    - would have had to do some convoluted programming around calling getState and setState
+- with useState hook:
+    - use a simple react hook that returns a variable and a setter for that variable 
 
 # useEffect
 
@@ -65,7 +74,7 @@ NOTES CONT
 - first parameter must be a function
 - using arrow syntax, create function reference
 - return from this function another function
-- second paramter is just an array [] that returns dependencies for the component
+- second parameter is just an array [] that returns dependencies for the component
 - if array is empty, then useEffect is only called once when component first mounted
 - if want it called again before component is unmounted, the array must contain all
 - values that will change. That is, the values that the rendered output is dependent on
