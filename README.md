@@ -1,6 +1,19 @@
 # HooksWithNextjs
 useState, useRef, useEffect
 
+# Why Hooks?
+- React Hooks declaratively create functionality
+    - Using hooks replaces a lot of "ceremony"
+    - React class components had to be used pre-Hooks
+    - Hooks allows the use of functional components
+        - Methodological versatility of functional components eliminates the need for potentially convoluted, redundant, and/or redundant javascript
+    - Less is more
+    - Hooks/Functional components = a better React paradigm
+
+### Content Source
+- Content derived from Using React Hooks tutorial II 
+by Peter Kellner on https://app.pluralsight.com
+
 # Getting Started with Next.js
 - open terminal and run
     - npm init -y
@@ -26,8 +39,6 @@ useState, useRef, useEffect
 - Page file name = url extension 
     - for example, localhost:3000/ImageChangeOnScroll
 - static folder is where images are stored when using next
-- content derived from Using React Hooks tutorial II 
-by Peter Kellner on https://app.pluralsight.com
 
 # useState
 ## echoing input field
