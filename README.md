@@ -6,7 +6,7 @@ useState, useRef, useEffect
     - npm init -y
     - npm install --save react react-dom next
     - mkdir pages
-- create index.jsx in pages for your home screen (routes with "/")
+- create index.jsx in pages folder for your home screen (routes with "/")
 - add the following to "scripts" in package.json before launching from terminal
 - "scripts": {
     - "dev": "next",
